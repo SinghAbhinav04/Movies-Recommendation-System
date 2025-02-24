@@ -46,7 +46,7 @@ def recommend_movies(movie_name):
         movie_title = data[data.index == index]['title'].values[0]
         if(i<20):
             
-            print(i,".",movie_title, " score-:" , movies)
+            print(i,".",movie_title, " -score:" , movies)
             i=i+1 
 
 
