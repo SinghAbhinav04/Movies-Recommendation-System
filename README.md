@@ -32,7 +32,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 1. Ensure that the `movies.csv` file is present in the `src/` directory.
 2. Run the script:
 ```sh
-python recommend.py
+python recommender.py
 ```
 3. Enter a movie name when prompted.
 4. The system will return a list of similar movies.
